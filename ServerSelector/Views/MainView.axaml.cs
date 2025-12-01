@@ -1,4 +1,4 @@
-﻿using Avalonia.Controls;
+using Avalonia.Controls;
 using Avalonia.Media;
 using Avalonia.Platform.Storage;
 using FluentAvalonia.UI.Controls;
@@ -25,7 +25,7 @@ public partial class MainView : UserControl
             {
                 VerticalAlignment = Avalonia.Layout.VerticalAlignment.Center,
                 HorizontalAlignment = Avalonia.Layout.HorizontalAlignment.Center,
-                Text = "Administrator privileges are required to change servers."
+                Text = "请以管理员身份运行"
             };
         }
         if (OperatingSystem.IsLinux() && Environment.UserName != "root")
