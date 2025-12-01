@@ -100,7 +100,7 @@
                 <Grid Grid.Column="0" Grid.ColumnSpan="2"
                       Background="Transparent"
                       PointerPressed="WindowPointerPressed">
-                    <TextBlock Text="代理转向 承心识梦汉化 免费分享禁止倒卖"
+                    <TextBlock Text="代理转向 承心识梦汉化 免费禁倒卖"
                              FontSize="14"
                              FontWeight="SemiBold"
                              Foreground="White"
